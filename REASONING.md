@@ -29,7 +29,7 @@ Negative indexing indicates elements to be excluded. In this case since R indexi
 Replace this line with the rule that decides this case.
 
 ## P07
-Replace this line with the rule that decides this case.
+Factors are built on top of integer vectors and are used to contain predefined values. Therefore its type would be an integer since it is built on top of integer vectors and its length would be 3 based of the first argument.
 
 ## P08
 Replace this line with the rule that decides this case.
