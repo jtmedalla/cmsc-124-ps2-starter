@@ -7,7 +7,9 @@ After you run and find a miss, add a short correction entry under that case in a
 later commit.
 
 ## P01
-Replace this line with the rule that decides this case.
+Atomic vectors are coerved in a fixed order: character -> double -> integer -> logical.
+The example in this case makes the vector a double due to 3.5.
+Since the atomic vector is one dimensional, its length and the number of columns in dim would be equal.
 
 ## P02
 Replace this line with the rule that decides this case.
