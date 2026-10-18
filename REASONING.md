@@ -35,7 +35,9 @@ Factors are built on top of integer vectors and are used to contain predefined v
 Replace this line with the rule that decides this case.
 
 ## P09
-Replace this line with the rule that decides this case.
+The length of the data frame gives the number of columns. 
+ID serves as the header so it is not counted in the number of rows. 
+Lastly, since data frames are an extension of lists, alongside tibbles, typeof() would return the value list.
 
 ## P10
 Replace this line with the rule that decides this case.
