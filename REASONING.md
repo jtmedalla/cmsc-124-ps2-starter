@@ -7,17 +7,13 @@ After you run and find a miss, add a short correction entry under that case in a
 later commit.
 
 ## P01
-Atomic vectors are coerved in a fixed order: character -> double -> integer -> logical.
-The example in this case makes the vector a double due to 3.5.
-Since the atomic vector is one dimensional, its length and the number of columns in dim would be equal.
+Atomic vectors are coerved in a fixed order: character -> double -> integer -> logical. The example in this case makes the vector a double due to 3.5. Since the atomic vector is one dimensional, its length and the number of columns in dim would be equal.
 
 ## P02
 Replace this line with the rule that decides this case.
 
 ## P03
-Since the vectors are of unequal length, R performs recycling.
-Each element of the smaller vector is added to its corresponding element in the larger vector. 
-Afterwards, the first element of the smaller vector is added again to the next element where the last operation was performed and repeats until all the elements of the larger vector were performed upon. 
+Since the vectors are of unequal length, R performs recycling. Each element of the smaller vector is added to its corresponding element in the larger vector.  Afterwards, the first element of the smaller vector is added again to the next element where the last operation was performed and repeats until all the elements of the larger vector were performed upon. 
 
 ## P04
 Replace this line with the rule that decides this case.
@@ -35,9 +31,7 @@ Factors are built on top of integer vectors and are used to contain predefined v
 Replace this line with the rule that decides this case.
 
 ## P09
-The length of the data frame gives the number of columns. 
-ID serves as the header so it is not counted in the number of rows. 
-Lastly, since data frames are an extension of lists, alongside tibbles, typeof() would return the value list.
+The length of the data frame gives the number of columns. ID serves as the header so it is not counted in the number of rows. Lastly, since data frames are an extension of lists, alongside tibbles, typeof() would return the value list.
 
 ## P10
 Replace this line with the rule that decides this case.
