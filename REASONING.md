@@ -23,7 +23,7 @@ Afterwards, the first element of the smaller vector is added again to the next e
 Replace this line with the rule that decides this case.
 
 ## P05
-Replace this line with the rule that decides this case.
+Negative indexing indicates elements to be excluded. In this case since R indexing starts at one, 7L is excluded.
 
 ## P06
 Replace this line with the rule that decides this case.
