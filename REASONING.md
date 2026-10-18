@@ -43,7 +43,7 @@ Lastly, since data frames are an extension of lists, alongside tibbles, typeof()
 Replace this line with the rule that decides this case.
 
 ## P11
-Replace this line with the rule that decides this case.
+mean() is used to compute the mean from a vector. Since na.rm of the function is set to TRUE, it would remove all the missing values from the list, in this case NA_real_, and only get the non-missing values of 8 and 10.
 
 ## P12
 Replace this line with the rule that decides this case.
