@@ -49,7 +49,7 @@ mean() is used to compute the mean from a vector. Since na.rm of the function is
 Replace this line with the rule that decides this case.
 
 ## P13
-Replace this line with the rule that decides this case.
+While the initial vector is an integer due to its construction, the value of 2.5 was assigned to it later on. This triggers the coersion changing the value of the vector from integer to double.
 
 ## P14
 Replace this line with the rule that decides this case.
