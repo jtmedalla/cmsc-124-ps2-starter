@@ -15,7 +15,9 @@ Since the atomic vector is one dimensional, its length and the number of columns
 Replace this line with the rule that decides this case.
 
 ## P03
-Replace this line with the rule that decides this case.
+Since the vectors are of unequal length, R performs recycling.
+Each element of the smaller vector is added to its corresponding element in the larger vector. 
+Afterwards, the first element of the smaller vector is added again to the next element where the last operation was performed and repeats until all the elements of the larger vector were performed upon. 
 
 ## P04
 Replace this line with the rule that decides this case.
