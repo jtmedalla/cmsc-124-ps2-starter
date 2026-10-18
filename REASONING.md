@@ -55,7 +55,7 @@ While the initial vector is an integer due to its construction, the value of 2.5
 Replace this line with the rule that decides this case.
 
 ## P15
-Replace this line with the rule that decides this case.
+The array function creates an array from 1 to 8 with dimensions 2x2x2. Thus the length of the array is based on the result when the dimensions are multiplied resulting to 8. 
 
 ## P16
 Replace this line with the rule that decides this case.
