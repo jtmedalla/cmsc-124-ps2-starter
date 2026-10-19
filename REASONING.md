@@ -12,7 +12,7 @@ Atomic vectors are coerved in a fixed order: character -> double -> integer -> l
 Corrections: Vectors do not have dimensions.
 
 ## P02
-Replace this line with the rule that decides this case.
+Atomic vectors are coerved in a fixed order: character -> double -> integer -> logical. Since there exists a character "2", the entire vector is coerced into a character.
 
 ## P03
 Since the vectors are of unequal length, R performs recycling. Each element of the smaller vector is added to its corresponding element in the larger vector.  Afterwards, the first element of the smaller vector is added again to the next element where the last operation was performed and repeats until all the elements of the larger vector were performed upon. 
