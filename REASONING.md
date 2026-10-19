@@ -41,6 +41,8 @@ Replace this line with the rule that decides this case.
 ## P09
 The length of the data frame gives the number of columns. ID serves as the header so it is not counted in the number of rows. Lastly, since data frames are an extension of lists, alongside tibbles, typeof() would return the value list.
 
+Corrections: Headers are part of data frame dimensions.
+
 ## P10
 Replace this line with the rule that decides this case.
 
