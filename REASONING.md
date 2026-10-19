@@ -47,10 +47,10 @@ Corrections: Headers are part of data frame dimensions.
 Replace this line with the rule that decides this case.
 
 ## P11
-mean() is used to compute the mean from a vector. Since na.rm of the function is set to TRUE, it would remove all the missing values from the list, in this case NA_real_, and only get the non-missing values of 8 and 10.
+Replace this line with the rule that decides this case.
 
 ## P12
-Replace this line with the rule that decides this case.
+mean() is used to compute the mean from a vector. Since na.rm of the function is set to TRUE, it would remove all the missing values from the list, in this case NA_real_, and only get the non-missing values of 8 and 10.
 
 ## P13
 While the initial vector is an integer due to its construction, the value of 2.5 was assigned to it later on. This triggers the coersion changing the value of the vector from integer to double.
