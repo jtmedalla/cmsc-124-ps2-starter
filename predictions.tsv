@@ -1,5 +1,5 @@
 id	value	type	length	dim
-P01	[1,2,3.5]	double	3	1x3
+P01	[1,2,3.5]	double	3	none
 P02	TODO	TODO	TODO	TODO
 P03	[11,22,31,42]	integer	4	1x4
 P04	TODO	TODO	TODO	TODO

@@ -9,6 +9,8 @@ later commit.
 ## P01
 Atomic vectors are coerved in a fixed order: character -> double -> integer -> logical. The example in this case makes the vector a double due to 3.5. Since the atomic vector is one dimensional, its length and the number of columns in dim would be equal.
 
+Corrections: Vectors do not have dimensions.
+
 ## P02
 Replace this line with the rule that decides this case.
 
