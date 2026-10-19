@@ -36,7 +36,7 @@ Factors are built on top of integer vectors and are used to contain predefined v
 Corrections: Factors do not have dimensions.
 
 ## P08
-Replace this line with the rule that decides this case.
+P08 is an example of a list construction in R. The length of lists in R is based on the number of elements that they have. Thus the length is 3.
 
 ## P09
 The length of the data frame gives the number of columns. ID serves as the header so it is not counted in the number of rows. Lastly, since data frames are an extension of lists, alongside tibbles, typeof() would return the value list.
