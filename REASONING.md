@@ -7,49 +7,49 @@ After you run and find a miss, add a short correction entry under that case in a
 later commit.
 
 ## P01
-Replace this line with the rule that decides this case.
+Atomic vectors are coerved in a fixed order: character -> double -> integer -> logical. The example in this case makes the vector a double due to 3.5. Since the atomic vector is one dimensional, its length and the number of columns in dim would be equal.
 
 ## P02
 Replace this line with the rule that decides this case.
 
 ## P03
-Replace this line with the rule that decides this case.
+Since the vectors are of unequal length, R performs recycling. Each element of the smaller vector is added to its corresponding element in the larger vector.  Afterwards, the first element of the smaller vector is added again to the next element where the last operation was performed and repeats until all the elements of the larger vector were performed upon. 
 
 ## P04
 Replace this line with the rule that decides this case.
 
 ## P05
-Replace this line with the rule that decides this case.
+Negative indexing indicates elements to be excluded. In this case since R indexing starts at one, 7L is excluded.
 
 ## P06
 Replace this line with the rule that decides this case.
 
 ## P07
-Replace this line with the rule that decides this case.
+Factors are built on top of integer vectors and are used to contain predefined values. Therefore its type would be an integer since it is built on top of integer vectors and its length would be 3 based of the first argument.
 
 ## P08
 Replace this line with the rule that decides this case.
 
 ## P09
-Replace this line with the rule that decides this case.
+The length of the data frame gives the number of columns. ID serves as the header so it is not counted in the number of rows. Lastly, since data frames are an extension of lists, alongside tibbles, typeof() would return the value list.
 
 ## P10
 Replace this line with the rule that decides this case.
 
 ## P11
-Replace this line with the rule that decides this case.
+mean() is used to compute the mean from a vector. Since na.rm of the function is set to TRUE, it would remove all the missing values from the list, in this case NA_real_, and only get the non-missing values of 8 and 10.
 
 ## P12
 Replace this line with the rule that decides this case.
 
 ## P13
-Replace this line with the rule that decides this case.
+While the initial vector is an integer due to its construction, the value of 2.5 was assigned to it later on. This triggers the coersion changing the value of the vector from integer to double.
 
 ## P14
 Replace this line with the rule that decides this case.
 
 ## P15
-Replace this line with the rule that decides this case.
+The array function creates an array from 1 to 8 with dimensions 2x2x2. Thus the length of the array is based on the result when the dimensions are multiplied resulting to 8. 
 
 ## P16
 Replace this line with the rule that decides this case.
