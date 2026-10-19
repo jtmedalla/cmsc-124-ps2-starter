@@ -25,6 +25,8 @@ Replace this line with the rule that decides this case.
 ## P05
 Negative indexing indicates elements to be excluded. In this case since R indexing starts at one, 7L is excluded.
 
+Corrections: Vectors does not have dimensions.
+
 ## P06
 Replace this line with the rule that decides this case.
 
