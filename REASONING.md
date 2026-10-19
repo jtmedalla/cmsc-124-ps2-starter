@@ -20,7 +20,7 @@ Since the vectors are of unequal length, R performs recycling. Each element of t
 Corections: Vectors do not have dimensions.
 
 ## P04
-Replace this line with the rule that decides this case.
+The output is empty since positive values in the index selector indicates elements to be included in the output. 
 
 ## P05
 Negative indexing indicates elements to be excluded. In this case since R indexing starts at one, 7L is excluded.
