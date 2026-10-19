@@ -28,7 +28,7 @@ Negative indexing indicates elements to be excluded. In this case since R indexi
 Corrections: Vectors do not have dimensions.
 
 ## P06
-Replace this line with the rule that decides this case.
+x's index vector filters out data via its logical vector. The only values that would be outputted would be either an NA or an value that is greater than 10. 
 
 ## P07
 Factors are built on top of integer vectors and are used to contain predefined values. Therefore its type would be an integer since it is built on top of integer vectors and its length would be 3 based of the first argument.
