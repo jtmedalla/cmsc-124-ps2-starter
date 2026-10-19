@@ -25,7 +25,7 @@ Replace this line with the rule that decides this case.
 ## P05
 Negative indexing indicates elements to be excluded. In this case since R indexing starts at one, 7L is excluded.
 
-Corrections: Vectors does not have dimensions.
+Corrections: Vectors do not have dimensions.
 
 ## P06
 Replace this line with the rule that decides this case.
@@ -33,7 +33,7 @@ Replace this line with the rule that decides this case.
 ## P07
 Factors are built on top of integer vectors and are used to contain predefined values. Therefore its type would be an integer since it is built on top of integer vectors and its length would be 3 based of the first argument.
 
-Corrections: Factors does not have dimensions.
+Corrections: Factors do not have dimensions.
 
 ## P08
 Replace this line with the rule that decides this case.
@@ -54,6 +54,8 @@ mean() is used to compute the mean from a vector. Since na.rm of the function is
 
 ## P13
 While the initial vector is an integer due to its construction, the value of 2.5 was assigned to it later on. This triggers the coersion changing the value of the vector from integer to double.
+
+Correction: Vectors do not have dimensions
 
 ## P14
 Replace this line with the rule that decides this case.
