@@ -37,10 +37,10 @@ The length of the data frame gives the number of columns. ID serves as the heade
 R fills a matrix column by column, and arithmetic operations follow that storage order. When the matrix is added to the shorter vector c(10L, 20L), R recycles the vector's values across the matrix elements.
 
 ## P11
-mean() is used to compute the mean from a vector. Since na.rm of the function is set to TRUE, it would remove all the missing values from the list, in this case NA_real_, and only get the non-missing values of 8 and 10.
+The mean() function calculates the average of the values in a vector. Since na.rm = TRUE is not specified, the function does not remove the missing value (NA_real_). Therefore, the result is NA. The result has type double, length 1, and no dimensions.
 
 ## P12
-When na.rm = TRUE, the mean() function removes missing values before calculating the average. The values 8 and 10 are used in the calculation because the missing value is ignored.
+When na.rm = TRUE, the mean() function removes missing values before calculating the average. The missing value is ignored, so the mean is calculated using 8 and 10. The result is 9, with type double, length 1, and no dimensions.
 
 ## P13
 While the initial vector is an integer due to its construction, the value of 2.5 was assigned to it later on. This triggers the coersion changing the value of the vector from integer to double.
