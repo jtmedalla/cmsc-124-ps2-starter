@@ -47,7 +47,7 @@ Corrections: Headers are part of data frame dimensions.
 P10 is an example of a matrix construction with recycling. It first creates a 2x3 matrix with values from 1 to 6. Then it adds 10 and 20 according to recycling rules in R. 
 
 ## P11
-Replace this line with the rule that decides this case.
+NA values are infectious. Once an NA value is found, subsequent calculations that use the NA value would output NA.
 
 ## P12
 mean() is used to compute the mean from a vector. Since na.rm of the function is set to TRUE, it would remove all the missing values from the list, in this case NA_real_, and only get the non-missing values of 8 and 10.
