@@ -64,4 +64,4 @@ The case has several conditions in it that filter the output. The ifelse removes
 The array function creates an array from 1 to 8 with dimensions 2x2x2. Thus the length of the array is based on the result when the dimensions are multiplied resulting to 8. 
 
 ## P16
-Replace this line with the rule that decides this case.
+Calling the 0th index in a vector returns an empty vector. It is a special case indicated in the R manual.
