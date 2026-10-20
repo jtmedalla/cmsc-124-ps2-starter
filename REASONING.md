@@ -48,6 +48,8 @@ Corrections: Headers are part of data frame dimensions.
 ## P10
 P10 is an example of a matrix construction with recycling. It first creates a 2x3 matrix with values from 1 to 6. Then it adds 10 and 20 according to recycling rules in R. 
 
+Correction: Even if the vector is a matrix, it still has the type integer.
+
 ## P11
 NA values are infectious. Once an NA value is found, subsequent calculations that use the NA value would output NA.
 
