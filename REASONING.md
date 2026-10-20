@@ -58,7 +58,7 @@ While the initial vector is an integer due to its construction, the value of 2.5
 Correction: Vectors do not have dimensions
 
 ## P14
-Replace this line with the rule that decides this case.
+The case has several conditions in it that filter the output. The ifelse removes the NA value and converts it to an integer 0 while adjustting the rest by twice its value. Afterwards, any value greater than 15 is then made to be equal to 15. 
 
 ## P15
 The array function creates an array from 1 to 8 with dimensions 2x2x2. Thus the length of the array is based on the result when the dimensions are multiplied resulting to 8. 
