@@ -38,6 +38,8 @@ Corrections: Factors do not have dimensions.
 ## P08
 P08 is an example of a list construction in R. The length of lists in R is based on the number of elements that they have. Thus the length is 3.
 
+Correction: The length of a list in R is dictated by the number of elements that it has, not the total number of elements from each name. Thus, the length of the list is 2.
+
 ## P09
 The length of the data frame gives the number of columns. ID serves as the header so it is not counted in the number of rows. Lastly, since data frames are an extension of lists, alongside tibbles, typeof() would return the value list.
 
