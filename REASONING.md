@@ -20,7 +20,7 @@ Since the vectors are of unequal length, R performs recycling. Each element of t
 Corections: Vectors do not have dimensions.
 
 ## P04
-The output is the elements contained in the index indicaated by the index selector. The order of the elements is dictated by the order of indices indicated in the index vector.
+The output is the elements contained in the index indicated by the index selector. The order of the elements is dictated by the order of indices indicated in the index vector.
 
 ## P05
 Negative indexing indicates elements to be excluded. In this case since R indexing starts at one, 7L is excluded.
