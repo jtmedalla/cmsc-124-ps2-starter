@@ -64,6 +64,8 @@ Correction: Vectors do not have dimensions
 ## P14
 The case has several conditions in it that filter the output. The ifelse removes the NA value and converts it to an integer 0 while adjustting the rest by twice its value. Afterwards, any value greater than 15 is then made to be equal to 15. 
 
+Correction: Since the NA is an NA_real_, then when it is replaced by 0, it is treated as a double.
+
 ## P15
 The array function creates an array from 1 to 8 with dimensions 2x2x2. Thus the length of the array is based on the result when the dimensions are multiplied resulting to 8. 
 
