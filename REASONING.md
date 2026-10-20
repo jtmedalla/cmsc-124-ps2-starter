@@ -44,7 +44,7 @@ The length of the data frame gives the number of columns. ID serves as the heade
 Corrections: Headers are part of data frame dimensions.
 
 ## P10
-Replace this line with the rule that decides this case.
+P10 is an example of a matrix construction with recycling. It first creates a 2x3 matrix with values from 1 to 6. Then it adds 10 and 20 according to recycling rules in R. 
 
 ## P11
 Replace this line with the rule that decides this case.
