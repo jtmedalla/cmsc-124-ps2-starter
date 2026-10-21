@@ -94,8 +94,8 @@ build_roster <- function(student_names, groups, scores) {
         group = factor(groups, levels = unique(groups)),
         raw_score = unname(scores),
         adjusted_score = c(adjusted),
-        passed = ifelse(adjusted > 12, TRUE, FALSE
-    ))
+        passed = ifelse(adjusted >= 12, TRUE, FALSE)
+    )
     return(df)
 }
 
